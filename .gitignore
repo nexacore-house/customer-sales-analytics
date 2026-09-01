@@ -1,0 +1,22 @@
+# Power BI temporary files
+*.pbix.tmp
+*.pbit.tmp
+
+# Power BI recovery
+AutoRecovery/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
