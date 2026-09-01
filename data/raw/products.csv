@@ -1,0 +1,501 @@
+ProductID,ProductName,CategoryID,Brand,UnitCost,ListPrice,LaunchDate,ProductStatus
+P00001,Orbit Power Bank 1,CAT01,Orbit,109.74,220.61,2022-02-05,Active
+P00002,Nest Kitchen Scale 1,CAT02,Nest,43.81,66.64,2025-06-28,Active
+P00003,Natura Face Brush 1,CAT03,Natura,21.17,31.06,2023-08-31,Active
+P00004,Stride Water Bottle 1,CAT04,Stride,75.79,134.11,2023-03-17,Active
+P00005,ClearDesk Notebook Set 1,CAT05,ClearDesk,16.55,26.93,2021-11-11,Discontinued
+P00006,Urban Key Holder 1,CAT06,Urban,10.96,21.08,2025-04-13,Active
+P00007,HomeIQ Wi-Fi Camera 1,CAT07,HomeIQ,141.77,287.5,2022-04-17,Active
+P00008,Journey Travel Mug 1,CAT08,Journey,31.46,66.0,2023-12-12,Active
+P00009,Orbit Webcam 1,CAT01,Orbit,58.02,119.05,2024-06-15,Active
+P00010,Willow Bedding Set 1,CAT02,Willow,49.07,81.67,2025-03-20,Active
+P00011,Well Aroma Diffuser 2,CAT03,Well,22.05,35.59,2021-10-17,Discontinued
+P00012,Stride Yoga Mat 2,CAT04,Stride,16.76,37.82,2018-01-31,Discontinued
+P00013,Grid Ergonomic Mouse Pad 2,CAT05,Grid,12.31,21.91,2019-06-01,Active
+P00014,Edge Tech Pouch 2,CAT06,Edge,4.3,7.89,2023-12-13,Active
+P00015,HomeIQ Wi-Fi Camera 2,CAT07,HomeIQ,63.0,99.88,2023-04-19,Active
+P00016,Trail Luggage Scale 2,CAT08,Trail,26.77,46.46,2019-08-20,Active
+P00017,Orbit Mechanical Keyboard 2,CAT01,Orbit,129.77,307.06,2023-03-18,Active
+P00018,Nest Food Container 2,CAT02,Nest,30.29,43.0,2025-06-23,Active
+P00019,Glow Hair Dryer 2,CAT03,Glow,40.72,91.34,2019-05-13,Active
+P00020,Peak Foam Roller 2,CAT04,Peak,23.39,34.67,2018-09-02,Active
+P00021,PaperWorks Ergonomic Mouse Pad 3,CAT05,PaperWorks,31.4,46.41,2022-05-27,Active
+P00022,Edge Travel Adapter 3,CAT06,Edge,11.67,22.6,2019-11-29,Active
+P00023,Sync Motion Sensor 3,CAT07,Sync,47.53,109.87,2021-01-25,Active
+P00024,Journey Packing Cubes 3,CAT08,Journey,13.11,23.45,2019-03-03,Active
+P00025,Core Wireless Mouse 3,CAT01,Core,43.67,95.06,2023-12-19,Discontinued
+P00026,Kora Coffee Grinder 3,CAT02,Kora,17.32,30.56,2020-12-15,Active
+P00027,Natura Skincare Set 3,CAT03,Natura,4.31,8.92,2024-07-28,Active
+P00028,Peak Yoga Mat 3,CAT04,Peak,41.21,80.31,2018-06-28,Active
+P00029,PaperWorks Notebook Set 3,CAT05,PaperWorks,29.45,44.2,2023-09-19,Active
+P00030,Halo Tech Pouch 3,CAT06,Halo,12.87,22.28,2018-05-17,Active
+P00031,Sync Motion Sensor 4,CAT07,Sync,96.08,200.61,2020-12-10,Discontinued
+P00032,Nomad Umbrella 4,CAT08,Nomad,12.9,25.0,2020-09-21,Active
+P00033,NovaTech USB-C Hub 4,CAT01,NovaTech,95.83,138.35,2018-04-12,Active
+P00034,Kora Desk Lamp 4,CAT02,Kora,26.68,38.92,2020-08-30,Active
+P00035,Natura Electric Toothbrush 4,CAT03,Natura,12.24,28.48,2025-08-04,Active
+P00036,Stride Fitness Tracker 4,CAT04,Stride,55.92,85.12,2025-08-19,Active
+P00037,PaperWorks Notebook Set 4,CAT05,PaperWorks,28.61,54.35,2019-02-28,Active
+P00038,Craft Card Holder 4,CAT06,Craft,16.39,29.52,2018-03-31,Active
+P00039,Luma Smart Lock 4,CAT07,Luma,34.28,48.65,2025-01-04,Active
+P00040,Trail Travel Mug 4,CAT08,Trail,26.34,38.77,2020-09-08,Active
+P00041,Core Webcam 5,CAT01,Core,100.4,184.52,2025-07-27,Active
+P00042,Willow Food Container 5,CAT02,Willow,30.15,57.27,2023-01-08,Active
+P00043,Well Aroma Diffuser 5,CAT03,Well,29.67,46.47,2023-03-18,Active
+P00044,Active Fitness Tracker 5,CAT04,Active,36.33,71.07,2022-06-18,Active
+P00045,Grid Stapler Set 5,CAT05,Grid,35.49,54.98,2021-05-07,Active
+P00046,Halo Laptop Sleeve 5,CAT06,Halo,15.44,23.66,2023-01-10,Active
+P00047,Sync Smart Plug 5,CAT07,Sync,20.43,45.6,2020-12-13,Active
+P00048,Journey Umbrella 5,CAT08,Journey,20.33,30.63,2022-08-27,Active
+P00049,NovaTech Wireless Mouse 5,CAT01,NovaTech,31.56,54.74,2023-06-06,Active
+P00050,Hearth Coffee Grinder 5,CAT02,Hearth,58.06,89.0,2025-09-26,Active
+P00051,Natura Electric Toothbrush 6,CAT03,Natura,11.79,23.88,2021-07-23,Active
+P00052,Peak Training Gloves 6,CAT04,Peak,50.99,108.83,2021-08-15,Active
+P00053,NoteLab Ergonomic Mouse Pad 6,CAT05,NoteLab,6.87,11.59,2020-01-06,Active
+P00054,Urban Watch Strap 6,CAT06,Urban,13.16,19.57,2021-08-26,Active
+P00055,SmartNest Smart Thermostat 6,CAT07,SmartNest,52.61,73.27,2024-10-24,Active
+P00056,Aero Reusable Bottle 6,CAT08,Aero,115.12,185.02,2018-01-23,Active
+P00057,Vertex Wireless Mouse 6,CAT01,Vertex,45.66,92.47,2018-08-03,Active
+P00058,Mason Bath Towel Set 6,CAT02,Mason,32.57,55.59,2025-09-26,Active
+P00059,Vita Hair Dryer 6,CAT03,Vita,13.07,18.83,2021-05-21,Active
+P00060,Peak Training Gloves 6,CAT04,Peak,40.64,80.9,2019-08-17,Active
+P00061,PaperWorks Desk Calculator 7,CAT05,PaperWorks,3.12,6.95,2023-11-25,Discontinued
+P00062,Urban Phone Case 7,CAT06,Urban,12.71,26.98,2024-04-26,Active
+P00063,HomeIQ Smart Thermostat 7,CAT07,HomeIQ,36.82,52.68,2021-10-22,Active
+P00064,Aero Travel Pillow 7,CAT08,Aero,19.18,37.23,2020-01-23,Discontinued
+P00065,Vertex Mechanical Keyboard 7,CAT01,Vertex,88.94,164.25,2022-04-07,Active
+P00066,Kora Vacuum Flask 7,CAT02,Kora,39.3,92.75,2019-10-14,Discontinued
+P00067,Glow Hair Dryer 7,CAT03,Glow,7.98,11.56,2018-06-03,Active
+P00068,Forge Gym Bag 7,CAT04,Forge,42.94,92.89,2020-12-22,Active
+P00069,Grid Document Tray 7,CAT05,Grid,4.76,11.32,2023-03-19,Active
+P00070,Urban Key Holder 7,CAT06,Urban,11.49,21.37,2018-05-04,Active
+P00071,Nexa Wi-Fi Camera 8,CAT07,Nexa,66.36,96.79,2021-02-07,Active
+P00072,Journey Backpack 8,CAT08,Journey,31.97,64.44,2019-06-05,Active
+P00073,Orbit Bluetooth Earbuds 8,CAT01,Orbit,86.41,123.73,2022-08-22,Active
+P00074,Mason Pan Set 8,CAT02,Mason,68.02,129.57,2021-08-17,Active
+P00075,Glow Massage Roller 8,CAT03,Glow,5.34,9.04,2019-05-17,Active
+P00076,Motion Water Bottle 8,CAT04,Motion,18.28,26.35,2023-08-20,Active
+P00077,PaperWorks Pen Set 8,CAT05,PaperWorks,35.62,52.7,2020-01-18,Discontinued
+P00078,Loop Wallet 8,CAT06,Loop,19.57,30.23,2023-03-01,Active
+P00079,Nexa Motion Sensor 8,CAT07,Nexa,36.69,86.59,2023-10-03,Active
+P00080,Journey Travel Pillow 8,CAT08,Journey,25.52,49.89,2019-10-26,Active
+P00081,NovaTech Webcam 9,CAT01,NovaTech,84.49,188.85,2019-06-26,Active
+P00082,Willow Bedding Set 9,CAT02,Willow,42.76,83.91,2025-02-07,Active
+P00083,Well Massage Roller 9,CAT03,Well,9.02,15.51,2019-03-13,Active
+P00084,Stride Foam Roller 9,CAT04,Stride,24.0,34.49,2021-09-24,Active
+P00085,ClearDesk Ergonomic Mouse Pad 9,CAT05,ClearDesk,6.81,14.77,2019-07-01,Active
+P00086,Urban Laptop Sleeve 9,CAT06,Urban,14.86,22.24,2018-07-16,Active
+P00087,SmartNest LED Light Strip 9,CAT07,SmartNest,13.85,24.26,2022-03-22,Active
+P00088,Trail Reusable Bottle 9,CAT08,Trail,8.69,16.96,2021-08-10,Active
+P00089,NovaTech Power Bank 9,CAT01,NovaTech,91.91,146.39,2019-09-16,Active
+P00090,Nest Bedding Set 9,CAT02,Nest,32.75,46.9,2021-09-12,Active
+P00091,Glow Body Care Kit 10,CAT03,Glow,39.64,73.83,2022-04-17,Discontinued
+P00092,Motion Fitness Tracker 10,CAT04,Motion,46.56,68.04,2018-03-28,Active
+P00093,Grid Pen Set 10,CAT05,Grid,4.19,8.69,2023-06-08,Active
+P00094,Edge Wallet 10,CAT06,Edge,11.42,20.48,2025-01-25,Active
+P00095,SmartNest Motion Sensor 10,CAT07,SmartNest,12.74,29.51,2021-02-21,Active
+P00096,Aero Umbrella 10,CAT08,Aero,33.27,60.36,2023-11-24,Active
+P00097,Orbit Portable Speaker 10,CAT01,Orbit,121.21,232.4,2023-10-23,Active
+P00098,Willow Kitchen Scale 10,CAT02,Willow,14.02,26.5,2021-04-11,Discontinued
+P00099,Natura Body Care Kit 10,CAT03,Natura,7.97,16.36,2020-09-06,Active
+P00100,Active Training Gloves 10,CAT04,Active,38.17,70.17,2024-06-15,Active
+P00101,PaperWorks Stapler Set 11,CAT05,PaperWorks,33.2,62.6,2019-03-01,Active
+P00102,Loop Wallet 11,CAT06,Loop,9.99,19.41,2019-12-26,Active
+P00103,Luma Home Hub 11,CAT07,Luma,38.22,70.28,2023-03-23,Active
+P00104,Journey Packing Cubes 11,CAT08,Journey,10.25,16.47,2019-04-22,Active
+P00105,Pulse Bluetooth Earbuds 11,CAT01,Pulse,29.29,56.76,2021-09-18,Active
+P00106,Mason Coffee Grinder 11,CAT02,Mason,17.24,24.44,2020-05-27,Active
+P00107,Vita Body Care Kit 11,CAT03,Vita,40.85,61.07,2022-05-16,Active
+P00108,Peak Gym Bag 11,CAT04,Peak,65.72,104.8,2020-08-12,Active
+P00109,ClearDesk Whiteboard 11,CAT05,ClearDesk,20.21,31.71,2021-08-18,Active
+P00110,Loop Card Holder 11,CAT06,Loop,43.62,70.08,2024-10-07,Active
+P00111,Nexa Motion Sensor 12,CAT07,Nexa,18.5,35.02,2019-07-16,Active
+P00112,Trail Luggage Scale 12,CAT08,Trail,68.39,97.35,2023-05-11,Active
+P00113,Vertex Mechanical Keyboard 12,CAT01,Vertex,32.1,67.19,2024-11-11,Active
+P00114,Hearth Food Container 12,CAT02,Hearth,25.67,55.23,2025-04-02,Active
+P00115,Pure Face Brush 12,CAT03,Pure,13.19,20.15,2018-09-24,Active
+P00116,Peak Foam Roller 12,CAT04,Peak,59.7,120.02,2018-05-30,Active
+P00117,Grid Whiteboard 12,CAT05,Grid,13.58,18.99,2019-08-11,Active
+P00118,Halo Wallet 12,CAT06,Halo,16.26,25.84,2021-08-31,Active
+P00119,Luma Smart Thermostat 12,CAT07,Luma,162.01,227.93,2020-09-09,Active
+P00120,Trail Lunch Bag 12,CAT08,Trail,28.12,51.88,2025-09-05,Active
+P00121,Pulse Portable Speaker 13,CAT01,Pulse,32.63,47.09,2022-10-21,Active
+P00122,Willow Bath Towel Set 13,CAT02,Willow,106.0,250.0,2019-05-10,Active
+P00123,Well Digital Scale 13,CAT03,Well,8.41,12.56,2020-03-06,Active
+P00124,Peak Resistance Bands 13,CAT04,Peak,62.82,126.52,2019-07-20,Active
+P00125,ClearDesk Planner 13,CAT05,ClearDesk,4.61,9.58,2018-06-15,Active
+P00126,Craft Card Holder 13,CAT06,Craft,9.07,15.87,2023-03-11,Active
+P00127,HomeIQ Wi-Fi Camera 13,CAT07,HomeIQ,68.39,141.93,2023-10-16,Active
+P00128,Aero Reusable Bottle 13,CAT08,Aero,22.75,51.42,2024-10-30,Active
+P00129,Orbit USB-C Hub 13,CAT01,Orbit,56.33,86.39,2025-09-14,Active
+P00130,Mason Storage Set 13,CAT02,Mason,23.55,46.22,2023-07-15,Active
+P00131,Well Body Care Kit 14,CAT03,Well,10.96,22.32,2020-07-01,Active
+P00132,Stride Water Bottle 14,CAT04,Stride,34.45,53.03,2022-01-15,Active
+P00133,OfficePro Planner 14,CAT05,OfficePro,11.85,22.82,2025-03-27,Active
+P00134,Craft Cable Organiser 14,CAT06,Craft,20.42,38.64,2024-02-15,Active
+P00135,SmartNest Smart Plug 14,CAT07,SmartNest,14.2,32.99,2023-04-01,Active
+P00136,Nomad Travel Pillow 14,CAT08,Nomad,20.46,34.99,2021-10-30,Active
+P00137,Core USB-C Hub 14,CAT01,Core,49.38,76.0,2025-01-01,Discontinued
+P00138,Mason Air Fryer Accessory 14,CAT02,Mason,56.58,82.53,2025-09-14,Active
+P00139,Vita Electric Toothbrush 14,CAT03,Vita,12.91,28.69,2024-03-03,Active
+P00140,Peak Resistance Bands 14,CAT04,Peak,14.13,23.72,2021-06-24,Active
+P00141,PaperWorks Desk Organiser 15,CAT05,PaperWorks,23.65,48.18,2018-04-10,Active
+P00142,Craft Travel Adapter 15,CAT06,Craft,8.93,13.48,2022-03-14,Active
+P00143,HomeIQ Smart Speaker 15,CAT07,HomeIQ,157.59,252.41,2022-07-12,Active
+P00144,Roam Luggage Scale 15,CAT08,Roam,15.75,28.12,2022-09-07,Discontinued
+P00145,Pulse Portable Speaker 15,CAT01,Pulse,59.51,99.67,2018-10-06,Active
+P00146,Willow Vacuum Flask 15,CAT02,Willow,25.79,40.24,2024-03-20,Active
+P00147,Glow Grooming Kit 15,CAT03,Glow,15.49,34.88,2019-03-30,Discontinued
+P00148,Active Resistance Bands 15,CAT04,Active,29.47,55.81,2023-01-19,Active
+P00149,OfficePro Desk Organiser 15,CAT05,OfficePro,13.21,21.59,2019-08-05,Active
+P00150,Edge Phone Case 15,CAT06,Edge,6.54,13.0,2024-05-19,Discontinued
+P00151,HomeIQ Smart Lock 16,CAT07,HomeIQ,47.18,79.22,2019-04-21,Active
+P00152,Aero Cabin Bag 16,CAT08,Aero,88.94,164.58,2018-08-29,Active
+P00153,Vertex Tablet Stand 16,CAT01,Vertex,68.13,154.17,2025-02-03,Active
+P00154,Kora Food Container 16,CAT02,Kora,18.84,27.96,2024-10-08,Active
+P00155,Well Grooming Kit 16,CAT03,Well,30.29,63.54,2025-07-04,Discontinued
+P00156,Peak Skipping Rope 16,CAT04,Peak,16.2,27.73,2023-05-28,Active
+P00157,NoteLab Pen Set 16,CAT05,NoteLab,32.51,47.36,2020-11-11,Active
+P00158,Edge Wallet 16,CAT06,Edge,11.8,25.79,2024-02-24,Active
+P00159,Nexa Smart Bulb 16,CAT07,Nexa,48.75,107.27,2019-08-19,Active
+P00160,Roam Lunch Bag 16,CAT08,Roam,13.32,23.83,2021-03-27,Active
+P00161,Orbit Tablet Stand 17,CAT01,Orbit,62.83,102.47,2018-03-01,Active
+P00162,Hearth Coffee Grinder 17,CAT02,Hearth,30.88,49.04,2021-07-29,Active
+P00163,Natura Skincare Set 17,CAT03,Natura,9.83,16.81,2025-06-05,Active
+P00164,Stride Gym Bag 17,CAT04,Stride,26.71,44.28,2021-10-28,Active
+P00165,ClearDesk Document Tray 17,CAT05,ClearDesk,13.23,28.44,2019-01-20,Active
+P00166,Loop Tech Pouch 17,CAT06,Loop,6.7,13.13,2021-04-19,Active
+P00167,Nexa Video Doorbell 17,CAT07,Nexa,53.68,94.96,2018-01-15,Active
+P00168,Roam Backpack 17,CAT08,Roam,25.09,36.0,2024-05-12,Discontinued
+P00169,Core USB-C Hub 17,CAT01,Core,234.52,329.05,2022-09-02,Active
+P00170,Nest Air Fryer Accessory 17,CAT02,Nest,52.26,108.83,2019-09-29,Active
+P00171,Natura Skincare Set 18,CAT03,Natura,16.56,25.13,2025-02-26,Discontinued
+P00172,Peak Skipping Rope 18,CAT04,Peak,27.88,65.42,2018-03-26,Active
+P00173,NoteLab Stapler Set 18,CAT05,NoteLab,8.15,11.68,2018-11-19,Active
+P00174,Loop Card Holder 18,CAT06,Loop,21.26,36.51,2023-12-03,Discontinued
+P00175,Sync Smart Bulb 18,CAT07,Sync,42.28,74.33,2024-04-05,Active
+P00176,Journey Travel Pillow 18,CAT08,Journey,25.81,37.2,2022-11-15,Active
+P00177,Vertex Portable Speaker 18,CAT01,Vertex,120.8,240.9,2021-09-12,Active
+P00178,Mason Vacuum Flask 18,CAT02,Mason,12.9,21.39,2018-03-13,Active
+P00179,Vita Body Care Kit 18,CAT03,Vita,6.82,10.81,2021-02-04,Active
+P00180,Active Cycling Light 18,CAT04,Active,25.87,38.04,2020-08-18,Active
+P00181,NoteLab Whiteboard 19,CAT05,NoteLab,18.69,26.36,2021-03-15,Active
+P00182,Edge Watch Strap 19,CAT06,Edge,4.11,5.98,2022-01-19,Active
+P00183,SmartNest Home Hub 19,CAT07,SmartNest,72.67,126.63,2020-03-27,Active
+P00184,Roam Umbrella 19,CAT08,Roam,13.69,27.67,2023-06-01,Active
+P00185,Pulse Headphones 19,CAT01,Pulse,122.7,251.17,2025-05-29,Active
+P00186,Kora Air Fryer Accessory 19,CAT02,Kora,4.7,10.04,2025-01-31,Discontinued
+P00187,Pure Massage Roller 19,CAT03,Pure,7.31,15.07,2022-06-19,Active
+P00188,Motion Water Bottle 19,CAT04,Motion,15.98,25.86,2019-08-18,Active
+P00189,PaperWorks Desk Calculator 19,CAT05,PaperWorks,16.17,26.48,2021-12-03,Active
+P00190,Edge Cable Organiser 19,CAT06,Edge,4.81,8.44,2024-01-24,Active
+P00191,Luma Video Doorbell 20,CAT07,Luma,34.34,69.66,2020-10-30,Active
+P00192,Aero Cabin Bag 20,CAT08,Aero,97.46,143.28,2025-04-30,Discontinued
+P00193,Pulse Power Bank 20,CAT01,Pulse,229.51,360.81,2018-01-18,Active
+P00194,Hearth Kitchen Scale 20,CAT02,Hearth,11.29,17.87,2020-01-09,Active
+P00195,Natura Grooming Kit 20,CAT03,Natura,13.15,18.83,2023-04-27,Active
+P00196,Motion Training Gloves 20,CAT04,Motion,22.32,50.98,2019-05-31,Discontinued
+P00197,Grid Stapler Set 20,CAT05,Grid,47.87,66.64,2024-12-12,Discontinued
+P00198,Halo Tech Pouch 20,CAT06,Halo,17.36,28.01,2018-01-16,Active
+P00199,SmartNest Motion Sensor 20,CAT07,SmartNest,14.58,20.9,2020-08-26,Active
+P00200,Journey Cabin Bag 20,CAT08,Journey,33.44,69.72,2022-09-11,Active
+P00201,Orbit USB-C Hub 21,CAT01,Orbit,37.89,62.1,2024-03-28,Active
+P00202,Willow Food Container 21,CAT02,Willow,9.52,19.9,2019-05-15,Active
+P00203,Glow Shaver 21,CAT03,Glow,22.0,33.12,2025-03-15,Active
+P00204,Forge Skipping Rope 21,CAT04,Forge,69.89,139.19,2018-03-14,Active
+P00205,ClearDesk Ergonomic Mouse Pad 21,CAT05,ClearDesk,38.71,54.56,2019-05-14,Active
+P00206,Urban Screen Protector 21,CAT06,Urban,10.85,16.89,2018-03-10,Active
+P00207,Sync Smart Lock 21,CAT07,Sync,45.52,66.49,2023-08-16,Active
+P00208,Roam Packing Cubes 21,CAT08,Roam,21.51,41.34,2021-02-19,Active
+P00209,NovaTech Webcam 21,CAT01,NovaTech,83.37,167.52,2022-09-13,Active
+P00210,Nest Desk Lamp 21,CAT02,Nest,17.06,24.9,2018-12-08,Active
+P00211,Vita Body Care Kit 22,CAT03,Vita,3.27,7.64,2025-07-26,Active
+P00212,Forge Yoga Mat 22,CAT04,Forge,34.14,60.74,2021-10-09,Active
+P00213,Grid Whiteboard 22,CAT05,Grid,50.17,77.39,2019-06-09,Active
+P00214,Loop Watch Strap 22,CAT06,Loop,6.74,11.39,2024-01-12,Active
+P00215,SmartNest LED Light Strip 22,CAT07,SmartNest,100.05,172.65,2024-02-24,Active
+P00216,Trail Packing Cubes 22,CAT08,Trail,51.56,94.75,2024-02-17,Active
+P00217,Orbit Monitor Stand 22,CAT01,Orbit,32.74,77.66,2019-12-24,Active
+P00218,Kora Bedding Set 22,CAT02,Kora,37.77,63.41,2022-11-27,Active
+P00219,Vita Body Care Kit 22,CAT03,Vita,12.54,22.75,2021-07-14,Active
+P00220,Motion Training Gloves 22,CAT04,Motion,27.06,56.43,2024-05-11,Active
+P00221,Grid Pen Set 23,CAT05,Grid,49.51,99.12,2025-01-03,Active
+P00222,Halo Phone Case 23,CAT06,Halo,3.96,6.91,2024-06-17,Discontinued
+P00223,Nexa Motion Sensor 23,CAT07,Nexa,37.38,63.96,2020-07-27,Discontinued
+P00224,Aero Packing Cubes 23,CAT08,Aero,169.74,250.0,2025-06-21,Discontinued
+P00225,Vertex Wireless Mouse 23,CAT01,Vertex,47.71,71.68,2022-01-24,Active
+P00226,Kora Food Container 23,CAT02,Kora,17.04,36.65,2023-01-30,Active
+P00227,Pure Digital Scale 23,CAT03,Pure,9.04,20.64,2022-11-04,Active
+P00228,Motion Resistance Bands 23,CAT04,Motion,25.97,61.65,2020-06-26,Active
+P00229,NoteLab Label Maker 23,CAT05,NoteLab,34.6,48.53,2020-04-05,Active
+P00230,Urban Travel Adapter 23,CAT06,Urban,5.45,9.17,2021-12-22,Discontinued
+P00231,HomeIQ Wi-Fi Camera 24,CAT07,HomeIQ,63.66,120.2,2019-12-28,Active
+P00232,Journey Reusable Bottle 24,CAT08,Journey,22.84,46.33,2022-10-22,Discontinued
+P00233,Orbit Tablet Stand 24,CAT01,Orbit,83.44,146.15,2023-03-06,Active
+P00234,Kora Storage Set 24,CAT02,Kora,35.85,63.95,2021-03-26,Active
+P00235,Well Electric Toothbrush 24,CAT03,Well,30.39,44.38,2021-02-11,Active
+P00236,Motion Water Bottle 24,CAT04,Motion,22.04,39.91,2020-12-25,Active
+P00237,ClearDesk Planner 24,CAT05,ClearDesk,24.74,34.74,2023-03-06,Active
+P00238,Halo Tech Pouch 24,CAT06,Halo,38.79,59.08,2024-06-26,Active
+P00239,SmartNest LED Light Strip 24,CAT07,SmartNest,40.46,68.85,2021-07-30,Discontinued
+P00240,Trail Reusable Bottle 24,CAT08,Trail,92.4,133.22,2020-06-27,Active
+P00241,Pulse Bluetooth Earbuds 25,CAT01,Pulse,117.89,207.0,2018-11-04,Active
+P00242,Nest Bedding Set 25,CAT02,Nest,44.11,80.94,2019-07-21,Discontinued
+P00243,Glow Digital Scale 25,CAT03,Glow,8.12,17.1,2022-04-08,Active
+P00244,Active Gym Bag 25,CAT04,Active,54.76,83.47,2021-03-23,Active
+P00245,ClearDesk Desk Organiser 25,CAT05,ClearDesk,11.11,15.51,2025-05-10,Active
+P00246,Halo Cable Organiser 25,CAT06,Halo,12.3,21.45,2021-10-17,Active
+P00247,Luma LED Light Strip 25,CAT07,Luma,114.5,175.83,2020-03-19,Active
+P00248,Nomad Packing Cubes 25,CAT08,Nomad,9.06,16.18,2021-08-23,Active
+P00249,NovaTech Mechanical Keyboard 25,CAT01,NovaTech,317.76,501.09,2020-07-14,Active
+P00250,Mason Desk Lamp 25,CAT02,Mason,16.04,24.38,2023-09-09,Active
+P00251,Natura Digital Scale 26,CAT03,Natura,13.74,20.14,2024-10-24,Active
+P00252,Peak Cycling Light 26,CAT04,Peak,31.76,68.82,2019-01-20,Active
+P00253,Grid Document Tray 26,CAT05,Grid,29.14,51.72,2019-02-26,Active
+P00254,Edge Watch Strap 26,CAT06,Edge,10.19,20.57,2019-10-10,Active
+P00255,Sync LED Light Strip 26,CAT07,Sync,132.07,194.2,2021-01-27,Active
+P00256,Trail Packing Cubes 26,CAT08,Trail,11.75,27.63,2021-04-04,Active
+P00257,NovaTech USB-C Hub 26,CAT01,NovaTech,69.72,100.1,2022-03-04,Active
+P00258,Kora Bath Towel Set 26,CAT02,Kora,63.57,150.08,2019-09-01,Active
+P00259,Glow Massage Roller 26,CAT03,Glow,18.48,43.77,2020-08-08,Active
+P00260,Motion Cycling Light 26,CAT04,Motion,55.21,85.6,2025-04-10,Active
+P00261,PaperWorks Notebook Set 27,CAT05,PaperWorks,12.61,23.52,2018-10-22,Active
+P00262,Halo Phone Case 27,CAT06,Halo,9.86,13.87,2022-06-03,Discontinued
+P00263,Luma Smart Speaker 27,CAT07,Luma,40.18,62.33,2018-04-30,Active
+P00264,Journey Travel Pillow 27,CAT08,Journey,15.75,21.92,2023-03-12,Active
+P00265,Core USB-C Hub 27,CAT01,Core,60.89,94.69,2022-01-11,Active
+P00266,Willow Kitchen Scale 27,CAT02,Willow,23.43,40.53,2022-08-22,Active
+P00267,Glow Aroma Diffuser 27,CAT03,Glow,16.51,34.18,2021-04-27,Active
+P00268,Motion Skipping Rope 27,CAT04,Motion,14.89,24.67,2019-10-29,Active
+P00269,NoteLab Ergonomic Mouse Pad 27,CAT05,NoteLab,16.71,34.17,2025-02-24,Active
+P00270,Edge Laptop Sleeve 27,CAT06,Edge,17.28,26.72,2024-04-20,Active
+P00271,HomeIQ LED Light Strip 28,CAT07,HomeIQ,43.97,104.67,2024-09-08,Active
+P00272,Aero Backpack 28,CAT08,Aero,18.15,27.56,2019-04-12,Active
+P00273,Vertex Mechanical Keyboard 28,CAT01,Vertex,131.54,219.06,2018-02-08,Active
+P00274,Nest Coffee Grinder 28,CAT02,Nest,30.91,64.05,2024-07-07,Active
+P00275,Pure Body Care Kit 28,CAT03,Pure,20.4,47.08,2018-05-19,Active
+P00276,Forge Fitness Tracker 28,CAT04,Forge,21.14,31.88,2020-03-16,Discontinued
+P00277,Grid Planner 28,CAT05,Grid,12.68,28.01,2021-07-31,Active
+P00278,Edge Cable Organiser 28,CAT06,Edge,3.44,5.53,2020-01-30,Active
+P00279,HomeIQ LED Light Strip 28,CAT07,HomeIQ,106.69,177.58,2022-11-22,Active
+P00280,Journey Travel Pillow 28,CAT08,Journey,96.63,147.6,2025-09-22,Active
+P00281,NovaTech Bluetooth Earbuds 29,CAT01,NovaTech,150.12,247.27,2023-06-24,Active
+P00282,Mason Air Fryer Accessory 29,CAT02,Mason,24.02,37.99,2025-09-25,Active
+P00283,Well Shaver 29,CAT03,Well,11.74,17.54,2019-07-31,Active
+P00284,Motion Skipping Rope 29,CAT04,Motion,51.31,76.1,2020-11-02,Active
+P00285,NoteLab Stapler Set 29,CAT05,NoteLab,9.2,13.24,2022-01-05,Active
+P00286,Loop Travel Adapter 29,CAT06,Loop,7.45,11.85,2018-05-22,Discontinued
+P00287,Nexa LED Light Strip 29,CAT07,Nexa,48.14,102.63,2022-03-03,Active
+P00288,Aero Umbrella 29,CAT08,Aero,87.69,171.43,2025-02-28,Active
+P00289,Vertex Headphones 29,CAT01,Vertex,52.6,102.28,2021-10-21,Active
+P00290,Kora Storage Set 29,CAT02,Kora,41.47,64.35,2024-03-13,Active
+P00291,Pure Grooming Kit 30,CAT03,Pure,42.63,71.76,2019-11-19,Active
+P00292,Forge Gym Bag 30,CAT04,Forge,105.49,153.67,2020-08-10,Active
+P00293,ClearDesk Desk Organiser 30,CAT05,ClearDesk,26.52,44.93,2022-03-21,Active
+P00294,Loop Phone Case 30,CAT06,Loop,22.06,50.69,2023-12-05,Active
+P00295,Luma Smart Bulb 30,CAT07,Luma,50.88,71.32,2020-07-25,Active
+P00296,Roam Backpack 30,CAT08,Roam,74.57,152.34,2023-03-16,Active
+P00297,NovaTech Bluetooth Earbuds 30,CAT01,NovaTech,48.08,75.09,2019-09-19,Discontinued
+P00298,Kora Bath Towel Set 30,CAT02,Kora,37.48,78.94,2025-09-30,Active
+P00299,Glow Massage Roller 30,CAT03,Glow,13.31,20.67,2022-01-03,Discontinued
+P00300,Motion Foam Roller 30,CAT04,Motion,20.13,44.15,2019-04-08,Active
+P00301,OfficePro Ergonomic Mouse Pad 31,CAT05,OfficePro,10.91,16.16,2022-10-10,Active
+P00302,Loop Phone Case 31,CAT06,Loop,16.12,24.84,2022-10-29,Active
+P00303,Nexa Smart Speaker 31,CAT07,Nexa,24.39,57.64,2025-06-30,Discontinued
+P00304,Roam Travel Mug 31,CAT08,Roam,17.52,33.9,2023-06-12,Active
+P00305,Vertex USB-C Hub 31,CAT01,Vertex,83.42,132.26,2024-02-15,Active
+P00306,Nest Pan Set 31,CAT02,Nest,43.8,71.73,2019-12-25,Active
+P00307,Vita Massage Roller 31,CAT03,Vita,6.38,9.81,2020-05-07,Active
+P00308,Active Cycling Light 31,CAT04,Active,20.84,45.4,2019-05-03,Active
+P00309,PaperWorks Ergonomic Mouse Pad 31,CAT05,PaperWorks,12.07,19.42,2024-09-05,Active
+P00310,Craft Cable Organiser 31,CAT06,Craft,19.87,40.29,2022-02-09,Active
+P00311,Luma Wi-Fi Camera 32,CAT07,Luma,13.94,26.79,2021-12-15,Active
+P00312,Trail Passport Holder 32,CAT08,Trail,27.94,62.77,2019-10-20,Discontinued
+P00313,Vertex Bluetooth Earbuds 32,CAT01,Vertex,74.26,161.89,2021-09-11,Active
+P00314,Hearth Food Container 32,CAT02,Hearth,9.31,16.49,2020-08-05,Active
+P00315,Well Massage Roller 32,CAT03,Well,5.29,9.65,2021-11-26,Active
+P00316,Active Yoga Mat 32,CAT04,Active,23.83,54.07,2019-01-02,Active
+P00317,Grid Desk Organiser 32,CAT05,Grid,9.23,18.63,2018-10-18,Active
+P00318,Urban Travel Adapter 32,CAT06,Urban,8.11,14.5,2025-06-13,Active
+P00319,Nexa Smart Bulb 32,CAT07,Nexa,68.17,121.03,2024-05-12,Active
+P00320,Trail Umbrella 32,CAT08,Trail,12.61,29.11,2021-06-28,Active
+P00321,Core Headphones 33,CAT01,Core,19.9,38.2,2020-07-25,Active
+P00322,Willow Coffee Grinder 33,CAT02,Willow,28.54,41.39,2024-06-20,Active
+P00323,Glow Electric Toothbrush 33,CAT03,Glow,15.72,27.85,2019-06-04,Discontinued
+P00324,Motion Cycling Light 33,CAT04,Motion,26.46,41.93,2021-04-27,Active
+P00325,PaperWorks Stapler Set 33,CAT05,PaperWorks,7.31,14.04,2018-09-13,Discontinued
+P00326,Craft Key Holder 33,CAT06,Craft,8.09,11.39,2021-07-17,Discontinued
+P00327,Luma Smart Bulb 33,CAT07,Luma,57.9,101.43,2023-04-01,Active
+P00328,Roam Umbrella 33,CAT08,Roam,23.97,33.58,2024-11-01,Active
+P00329,NovaTech Headphones 33,CAT01,NovaTech,27.25,41.09,2024-10-25,Active
+P00330,Mason Vacuum Flask 33,CAT02,Mason,9.64,16.48,2021-10-06,Active
+P00331,Well Digital Scale 34,CAT03,Well,8.92,17.02,2018-03-17,Active
+P00332,Peak Yoga Mat 34,CAT04,Peak,29.82,52.43,2022-08-25,Discontinued
+P00333,Grid Stapler Set 34,CAT05,Grid,26.62,57.62,2020-03-01,Active
+P00334,Craft Watch Strap 34,CAT06,Craft,16.31,33.73,2018-11-20,Active
+P00335,SmartNest Smart Plug 34,CAT07,SmartNest,116.53,195.29,2018-09-10,Discontinued
+P00336,Roam Passport Holder 34,CAT08,Roam,29.32,67.88,2018-12-12,Active
+P00337,NovaTech Power Bank 34,CAT01,NovaTech,106.18,160.14,2021-10-06,Active
+P00338,Mason Vacuum Flask 34,CAT02,Mason,26.94,41.06,2021-10-11,Active
+P00339,Pure Grooming Kit 34,CAT03,Pure,19.77,35.3,2022-10-31,Active
+P00340,Stride Dumbbell Set 34,CAT04,Stride,32.63,53.59,2024-11-04,Active
+P00341,Grid Notebook Set 35,CAT05,Grid,21.82,37.94,2023-06-16,Active
+P00342,Halo Cable Organiser 35,CAT06,Halo,34.24,62.64,2024-07-20,Active
+P00343,Luma Smart Bulb 35,CAT07,Luma,37.91,82.82,2022-10-20,Active
+P00344,Roam Passport Holder 35,CAT08,Roam,22.32,34.24,2025-05-24,Active
+P00345,NovaTech Monitor Stand 35,CAT01,NovaTech,99.89,149.46,2020-10-31,Discontinued
+P00346,Hearth Bedding Set 35,CAT02,Hearth,19.9,30.48,2021-10-11,Active
+P00347,Natura Grooming Kit 35,CAT03,Natura,44.86,86.99,2024-02-16,Active
+P00348,Active Foam Roller 35,CAT04,Active,46.17,96.24,2018-12-11,Active
+P00349,PaperWorks Ergonomic Mouse Pad 35,CAT05,PaperWorks,75.28,133.43,2018-04-23,Active
+P00350,Loop Watch Strap 35,CAT06,Loop,3.92,8.36,2024-07-30,Discontinued
+P00351,Nexa Motion Sensor 36,CAT07,Nexa,120.87,275.27,2021-03-26,Active
+P00352,Nomad Cabin Bag 36,CAT08,Nomad,117.86,207.13,2020-02-07,Active
+P00353,Vertex USB-C Hub 36,CAT01,Vertex,73.51,118.85,2023-09-24,Active
+P00354,Nest Bath Towel Set 36,CAT02,Nest,20.75,33.35,2021-04-30,Active
+P00355,Vita Face Brush 36,CAT03,Vita,8.89,16.78,2019-12-03,Active
+P00356,Active Skipping Rope 36,CAT04,Active,20.75,38.5,2024-11-20,Active
+P00357,OfficePro Pen Set 36,CAT05,OfficePro,30.03,43.17,2024-10-04,Active
+P00358,Urban Key Holder 36,CAT06,Urban,7.68,15.29,2024-06-13,Active
+P00359,Nexa Motion Sensor 36,CAT07,Nexa,177.7,367.84,2023-05-07,Active
+P00360,Nomad Travel Pillow 36,CAT08,Nomad,16.95,27.94,2024-06-03,Discontinued
+P00361,Orbit Power Bank 37,CAT01,Orbit,134.86,227.23,2020-10-02,Active
+P00362,Mason Kitchen Scale 37,CAT02,Mason,38.57,88.3,2023-10-22,Active
+P00363,Glow Skincare Set 37,CAT03,Glow,26.26,38.67,2019-04-18,Active
+P00364,Active Gym Bag 37,CAT04,Active,61.69,89.61,2020-09-19,Active
+P00365,PaperWorks Desk Organiser 37,CAT05,PaperWorks,18.03,27.62,2021-01-11,Active
+P00366,Loop Laptop Sleeve 37,CAT06,Loop,13.01,25.07,2022-09-16,Active
+P00367,Luma Video Doorbell 37,CAT07,Luma,67.6,103.58,2021-02-26,Active
+P00368,Nomad Passport Holder 37,CAT08,Nomad,7.77,12.27,2022-01-30,Discontinued
+P00369,Core Headphones 37,CAT01,Core,39.49,69.18,2019-05-17,Active
+P00370,Nest Coffee Grinder 37,CAT02,Nest,16.35,25.21,2020-04-11,Active
+P00371,Natura Aroma Diffuser 38,CAT03,Natura,4.87,10.96,2022-02-18,Active
+P00372,Active Skipping Rope 38,CAT04,Active,14.37,25.59,2022-05-20,Active
+P00373,OfficePro Document Tray 38,CAT05,OfficePro,5.86,9.01,2024-06-09,Active
+P00374,Loop Wallet 38,CAT06,Loop,9.41,18.65,2019-01-04,Active
+P00375,HomeIQ LED Light Strip 38,CAT07,HomeIQ,76.01,113.11,2018-10-01,Active
+P00376,Nomad Backpack 38,CAT08,Nomad,63.39,98.51,2024-02-19,Active
+P00377,Core Wireless Mouse 38,CAT01,Core,82.11,121.17,2019-04-21,Active
+P00378,Nest Air Fryer Accessory 38,CAT02,Nest,31.7,66.47,2024-11-27,Active
+P00379,Glow Face Brush 38,CAT03,Glow,24.51,37.23,2019-06-18,Active
+P00380,Active Skipping Rope 38,CAT04,Active,29.14,52.91,2018-09-05,Active
+P00381,PaperWorks Desk Calculator 39,CAT05,PaperWorks,5.02,8.76,2023-05-02,Active
+P00382,Urban Laptop Sleeve 39,CAT06,Urban,48.12,74.66,2023-02-08,Active
+P00383,SmartNest Smart Speaker 39,CAT07,SmartNest,20.29,29.05,2019-12-06,Active
+P00384,Roam Lunch Bag 39,CAT08,Roam,18.59,29.03,2019-03-29,Discontinued
+P00385,Vertex USB-C Hub 39,CAT01,Vertex,77.27,109.16,2019-09-18,Active
+P00386,Willow Desk Lamp 39,CAT02,Willow,26.09,53.44,2020-07-28,Active
+P00387,Glow Face Brush 39,CAT03,Glow,3.67,6.07,2020-02-11,Active
+P00388,Forge Gym Bag 39,CAT04,Forge,209.65,350.0,2021-09-04,Active
+P00389,Grid Label Maker 39,CAT05,Grid,11.02,18.27,2021-01-08,Active
+P00390,Loop Watch Strap 39,CAT06,Loop,7.18,11.51,2018-03-10,Active
+P00391,Luma Home Hub 40,CAT07,Luma,22.56,45.52,2019-08-28,Active
+P00392,Trail Travel Mug 40,CAT08,Trail,58.7,102.59,2022-04-27,Discontinued
+P00393,Orbit Power Bank 40,CAT01,Orbit,37.81,56.28,2021-08-02,Active
+P00394,Mason Bedding Set 40,CAT02,Mason,16.13,22.79,2023-10-27,Active
+P00395,Well Hair Dryer 40,CAT03,Well,13.26,29.07,2024-07-08,Active
+P00396,Peak Cycling Light 40,CAT04,Peak,75.71,150.1,2023-08-31,Active
+P00397,NoteLab Desk Calculator 40,CAT05,NoteLab,11.67,23.87,2020-10-01,Active
+P00398,Halo Wallet 40,CAT06,Halo,9.63,15.37,2023-05-02,Active
+P00399,HomeIQ Smart Thermostat 40,CAT07,HomeIQ,52.13,85.22,2025-08-28,Active
+P00400,Nomad Travel Mug 40,CAT08,Nomad,19.79,28.89,2022-04-24,Active
+P00401,Pulse USB-C Hub 41,CAT01,Pulse,38.02,70.99,2019-03-16,Active
+P00402,Mason Vacuum Flask 41,CAT02,Mason,24.56,47.35,2022-05-24,Active
+P00403,Glow Hair Dryer 41,CAT03,Glow,8.32,11.66,2024-01-31,Active
+P00404,Peak Foam Roller 41,CAT04,Peak,32.67,46.46,2020-08-06,Active
+P00405,PaperWorks Whiteboard 41,CAT05,PaperWorks,21.67,39.07,2023-06-21,Active
+P00406,Halo Watch Strap 41,CAT06,Halo,13.17,24.46,2025-03-29,Active
+P00407,SmartNest Home Hub 41,CAT07,SmartNest,59.42,82.7,2021-11-03,Active
+P00408,Trail Travel Pillow 41,CAT08,Trail,61.48,105.11,2023-10-03,Active
+P00409,NovaTech Monitor Stand 41,CAT01,NovaTech,46.53,104.45,2023-06-22,Active
+P00410,Nest Kitchen Scale 41,CAT02,Nest,74.87,110.47,2018-09-14,Active
+P00411,Vita Skincare Set 42,CAT03,Vita,5.13,12.07,2021-05-02,Discontinued
+P00412,Motion Foam Roller 42,CAT04,Motion,14.07,24.38,2019-04-23,Active
+P00413,Grid Desk Calculator 42,CAT05,Grid,7.28,17.13,2025-02-06,Discontinued
+P00414,Urban Phone Case 42,CAT06,Urban,16.21,29.59,2021-02-05,Active
+P00415,HomeIQ Smart Lock 42,CAT07,HomeIQ,84.94,127.98,2021-10-05,Active
+P00416,Journey Lunch Bag 42,CAT08,Journey,17.21,27.01,2020-11-07,Active
+P00417,Pulse Headphones 42,CAT01,Pulse,53.72,124.35,2020-08-30,Active
+P00418,Hearth Kitchen Scale 42,CAT02,Hearth,70.81,125.47,2018-11-29,Discontinued
+P00419,Well Grooming Kit 42,CAT03,Well,11.45,24.09,2022-07-07,Active
+P00420,Active Water Bottle 42,CAT04,Active,50.51,109.52,2021-12-25,Active
+P00421,Grid Ergonomic Mouse Pad 43,CAT05,Grid,10.07,16.42,2023-05-21,Active
+P00422,Loop Card Holder 43,CAT06,Loop,22.8,52.4,2023-05-15,Active
+P00423,Luma Smart Speaker 43,CAT07,Luma,21.67,48.14,2020-02-23,Active
+P00424,Roam Packing Cubes 43,CAT08,Roam,17.04,26.38,2020-12-27,Active
+P00425,Vertex Bluetooth Earbuds 43,CAT01,Vertex,58.45,106.51,2021-10-14,Active
+P00426,Willow Coffee Grinder 43,CAT02,Willow,22.73,44.37,2022-12-17,Active
+P00427,Well Grooming Kit 43,CAT03,Well,12.49,21.55,2024-11-14,Active
+P00428,Motion Training Gloves 43,CAT04,Motion,189.09,350.0,2023-03-21,Active
+P00429,PaperWorks Planner 43,CAT05,PaperWorks,10.37,17.09,2021-11-05,Active
+P00430,Urban Phone Case 43,CAT06,Urban,17.72,24.7,2025-02-09,Discontinued
+P00431,Nexa Wi-Fi Camera 44,CAT07,Nexa,22.05,34.87,2025-05-25,Active
+P00432,Aero Travel Mug 44,CAT08,Aero,8.24,16.99,2018-03-01,Active
+P00433,Core Tablet Stand 44,CAT01,Core,58.36,137.38,2024-01-05,Active
+P00434,Kora Kitchen Scale 44,CAT02,Kora,13.51,23.4,2022-06-08,Active
+P00435,Well Face Brush 44,CAT03,Well,15.91,26.09,2022-01-28,Active
+P00436,Active Water Bottle 44,CAT04,Active,116.37,182.26,2019-04-10,Active
+P00437,Grid Document Tray 44,CAT05,Grid,5.86,13.68,2022-11-07,Active
+P00438,Halo Laptop Sleeve 44,CAT06,Halo,10.23,14.81,2020-10-18,Active
+P00439,SmartNest Smart Thermostat 44,CAT07,SmartNest,39.45,78.89,2025-06-12,Discontinued
+P00440,Journey Luggage Scale 44,CAT08,Journey,56.8,122.41,2020-02-14,Active
+P00441,Pulse Headphones 45,CAT01,Pulse,70.41,164.23,2020-04-03,Active
+P00442,Nest Air Fryer Accessory 45,CAT02,Nest,17.73,35.65,2020-11-19,Active
+P00443,Well Electric Toothbrush 45,CAT03,Well,11.54,19.44,2022-02-15,Active
+P00444,Peak Training Gloves 45,CAT04,Peak,39.99,71.64,2021-01-13,Active
+P00445,OfficePro Pen Set 45,CAT05,OfficePro,18.07,38.4,2023-06-25,Active
+P00446,Halo Key Holder 45,CAT06,Halo,23.25,52.19,2022-04-25,Discontinued
+P00447,SmartNest Home Hub 45,CAT07,SmartNest,19.45,39.95,2019-01-14,Discontinued
+P00448,Aero Lunch Bag 45,CAT08,Aero,54.06,91.1,2021-05-14,Active
+P00449,Orbit Monitor Stand 45,CAT01,Orbit,131.42,201.56,2024-08-07,Active
+P00450,Mason Vacuum Flask 45,CAT02,Mason,29.71,50.81,2018-08-12,Active
+P00451,Glow Shaver 46,CAT03,Glow,20.58,32.26,2021-12-25,Active
+P00452,Peak Yoga Mat 46,CAT04,Peak,20.1,44.78,2023-12-11,Active
+P00453,NoteLab Document Tray 46,CAT05,NoteLab,20.32,35.62,2018-09-12,Active
+P00454,Halo Cable Organiser 46,CAT06,Halo,11.46,22.68,2024-11-23,Active
+P00455,Sync Video Doorbell 46,CAT07,Sync,39.79,60.22,2018-07-19,Active
+P00456,Trail Passport Holder 46,CAT08,Trail,30.38,63.47,2023-08-11,Active
+P00457,Orbit Portable Speaker 46,CAT01,Orbit,56.94,100.83,2024-04-12,Active
+P00458,Kora Coffee Grinder 46,CAT02,Kora,14.85,31.37,2023-12-18,Active
+P00459,Glow Grooming Kit 46,CAT03,Glow,27.97,60.73,2025-06-01,Active
+P00460,Peak Foam Roller 46,CAT04,Peak,38.76,76.52,2018-03-04,Active
+P00461,PaperWorks Stapler Set 47,CAT05,PaperWorks,16.77,29.01,2020-03-18,Active
+P00462,Edge Watch Strap 47,CAT06,Edge,16.65,39.63,2022-08-10,Active
+P00463,SmartNest Smart Lock 47,CAT07,SmartNest,50.69,115.74,2019-12-07,Active
+P00464,Journey Luggage Scale 47,CAT08,Journey,46.69,68.92,2023-04-04,Active
+P00465,Core Monitor Stand 47,CAT01,Core,65.28,142.23,2019-05-22,Active
+P00466,Willow Air Fryer Accessory 47,CAT02,Willow,33.49,52.68,2022-12-22,Active
+P00467,Natura Grooming Kit 47,CAT03,Natura,11.68,17.27,2023-01-28,Discontinued
+P00468,Active Foam Roller 47,CAT04,Active,22.09,40.81,2022-09-19,Active
+P00469,ClearDesk Whiteboard 47,CAT05,ClearDesk,38.07,65.34,2024-12-13,Active
+P00470,Craft Card Holder 47,CAT06,Craft,19.35,27.72,2023-11-04,Active
+P00471,SmartNest Wi-Fi Camera 48,CAT07,SmartNest,35.26,53.22,2020-06-04,Active
+P00472,Trail Passport Holder 48,CAT08,Trail,27.78,44.18,2020-08-05,Active
+P00473,Pulse Tablet Stand 48,CAT01,Pulse,82.23,187.21,2022-04-01,Active
+P00474,Hearth Food Container 48,CAT02,Hearth,16.52,38.58,2022-05-21,Active
+P00475,Natura Aroma Diffuser 48,CAT03,Natura,9.53,14.22,2020-03-02,Active
+P00476,Forge Cycling Light 48,CAT04,Forge,25.94,43.24,2022-11-09,Active
+P00477,ClearDesk Notebook Set 48,CAT05,ClearDesk,17.07,28.23,2024-06-02,Active
+P00478,Urban Wallet 48,CAT06,Urban,19.44,35.82,2018-04-18,Active
+P00479,HomeIQ LED Light Strip 48,CAT07,HomeIQ,29.19,63.02,2019-04-13,Active
+P00480,Roam Travel Mug 48,CAT08,Roam,21.85,47.92,2023-09-29,Active
+P00481,Pulse Headphones 49,CAT01,Pulse,51.17,89.89,2021-05-22,Active
+P00482,Hearth Desk Lamp 49,CAT02,Hearth,37.08,57.12,2022-06-14,Active
+P00483,Glow Electric Toothbrush 49,CAT03,Glow,22.27,40.28,2022-05-10,Active
+P00484,Peak Training Gloves 49,CAT04,Peak,98.43,171.63,2020-01-20,Active
+P00485,Grid Whiteboard 49,CAT05,Grid,7.22,15.14,2020-09-10,Active
+P00486,Edge Travel Adapter 49,CAT06,Edge,8.47,15.82,2021-01-24,Active
+P00487,SmartNest Video Doorbell 49,CAT07,SmartNest,33.13,60.54,2020-11-12,Active
+P00488,Journey Reusable Bottle 49,CAT08,Journey,14.78,24.21,2024-01-19,Active
+P00489,Vertex Tablet Stand 49,CAT01,Vertex,235.39,388.91,2018-01-02,Active
+P00490,Kora Vacuum Flask 49,CAT02,Kora,16.94,35.91,2021-02-21,Active
+P00491,Vita Skincare Set 50,CAT03,Vita,26.76,41.41,2021-08-06,Active
+P00492,Motion Foam Roller 50,CAT04,Motion,92.39,153.64,2019-11-21,Active
+P00493,Grid Desk Calculator 50,CAT05,Grid,29.75,50.41,2018-12-27,Active
+P00494,Halo Watch Strap 50,CAT06,Halo,23.6,44.03,2018-01-22,Active
+P00495,Nexa Smart Lock 50,CAT07,Nexa,58.6,89.74,2019-12-27,Active
+P00496,Nomad Travel Pillow 50,CAT08,Nomad,43.09,96.73,2023-01-18,Active
+P00497,Vertex Portable Speaker 50,CAT01,Vertex,88.91,206.64,2023-05-12,Active
+P00498,Hearth Kitchen Scale 50,CAT02,Hearth,92.67,190.31,2018-03-18,Active
+P00499,Natura Face Brush 50,CAT03,Natura,6.65,11.51,2022-03-16,Active
+P00500,Motion Dumbbell Set 50,CAT04,Motion,27.45,63.17,2019-03-09,Active
