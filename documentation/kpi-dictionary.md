@@ -1,0 +1,728 @@
+# Customer & Sales Analytics — KPI Dictionary
+
+## 1. Purpose
+
+This document defines the principal business KPIs used throughout the Customer & Sales Analytics Power BI report.
+
+The purpose is to provide consistent definitions for financial, customer, behavioural and trend metrics and reduce ambiguity when interpreting the dashboard.
+
+Unless otherwise stated, commercial KPIs are based on completed transactions contained in `FactSales`.
+
+---
+
+# 2. Commercial KPI Scope
+
+The primary analytical model represents realised completed sales.
+
+Therefore:
+
+- Completed orders are included.
+- Returned orders are excluded from primary realised-sales KPIs.
+- Cancelled orders are excluded from primary realised-sales KPIs.
+
+Returned and cancelled transactions remain available in the raw data layer for traceability.
+
+---
+
+# 3. Sales & Profitability KPIs
+
+## Revenue
+
+**Definition:**  
+Net revenue generated from completed sales transactions after discounts.
+
+**Calculation:**
+
+`SUM(FactSales[NetRevenue])`
+
+**Validated Total:**  
+£46,028,499.80
+
+
+## Gross Revenue
+
+**Definition:**  
+Completed transaction value before discounts.
+
+**Calculation:**
+
+`SUM(FactSales[GrossRevenue])`
+
+
+## Discounts
+
+**Definition:**  
+Difference between Gross Revenue and Net Revenue.
+
+**Calculation:**
+
+`Gross Revenue - Revenue`
+
+
+## Total Cost
+
+**Definition:**  
+Total transaction-level cost associated with completed sales.
+
+
+## Profit
+
+**Definition:**  
+Revenue remaining after transaction-level product cost.
+
+**Calculation:**
+
+`Revenue - Total Cost`
+
+**Validated Total:**  
+Approximately £19.63M
+
+
+## Profit Margin %
+
+**Definition:**  
+Profit as a percentage of net revenue.
+
+**Calculation:**
+
+`Profit / Revenue`
+
+**Validated Total:**  
+Approximately 42.66%
+
+
+## Discount Rate %
+
+**Definition:**  
+Discount value as a percentage of gross revenue.
+
+**Calculation:**
+
+`Discounts / Gross Revenue`
+
+---
+
+# 4. Transaction Volume KPIs
+
+## Orders
+
+**Definition:**  
+Distinct completed customer orders.
+
+**Calculation:**
+
+`DISTINCTCOUNT(FactSales[OrderID])`
+
+**Validated Total:**  
+169,360
+
+Because `FactSales` operates at order-line grain, counting rows would not produce the number of orders.
+
+
+## Units Sold
+
+**Definition:**  
+Total quantity sold through completed transactions.
+
+
+## Average Order Value
+
+**Definition:**  
+Average net revenue generated per completed order.
+
+**Calculation:**
+
+`Revenue / Orders`
+
+**Validated Total:**  
+Approximately £271.78
+
+
+## Units per Order
+
+**Definition:**  
+Average quantity of units sold per completed order.
+
+**Calculation:**
+
+`Units Sold / Orders`
+
+
+## Revenue per Unit
+
+**Definition:**  
+Average net revenue generated per unit sold.
+
+**Calculation:**
+
+`Revenue / Units Sold`
+
+---
+
+# 5. Customer Population KPIs
+
+## Registered Customers
+
+**Definition:**  
+Distinct customers contained in the customer dimension regardless of whether they have completed a purchase.
+
+**Validated Total:**  
+20,000
+
+
+## Purchasing Customers
+
+**Definition:**  
+Distinct customers with at least one completed transaction within the evaluated filter context.
+
+**Validated All-Time Total:**  
+17,773
+
+
+## Customers With No Completed Purchase
+
+**Definition:**  
+Registered customers without completed purchasing activity in the observed dataset.
+
+At all-time level:
+
+`20,000 - 17,773 = 2,227`
+
+These customers remain valid registered customers and are not treated as data-quality failures.
+
+---
+
+# 6. Customer Value KPIs
+
+## Average Customer Value
+
+**Definition:**  
+Average completed-sale revenue generated per purchasing customer within the evaluated filter context.
+
+**Calculation:**
+
+`Revenue / Purchasing Customers`
+
+**Validated All-Time Result:**  
+Approximately £2.59K
+
+
+## Profit per Customer
+
+**Definition:**  
+Average profit generated per purchasing customer.
+
+**Calculation:**
+
+`Profit / Purchasing Customers`
+
+
+## Orders per Customer
+
+**Definition:**  
+Average number of completed orders per purchasing customer.
+
+**Calculation:**
+
+`Orders / Purchasing Customers`
+
+**Validated All-Time Result:**  
+Approximately 9.53
+
+
+## Profit per Order
+
+**Definition:**  
+Average profit generated per completed order.
+
+**Calculation:**
+
+`Profit / Orders`
+
+---
+
+# 7. Repeat Purchasing KPIs
+
+## Repeat Customers
+
+**Definition:**  
+Customers with at least two completed orders within the evaluated filter context.
+
+
+## One-Time Customers
+
+**Definition:**  
+Customers with exactly one completed order within the evaluated filter context.
+
+
+## Repeat Customer Rate %
+
+**Definition:**  
+Percentage of purchasing customers classified as Repeat Customers.
+
+**Calculation:**
+
+`Repeat Customers / Purchasing Customers`
+
+**Validated All-Time Result:**  
+Approximately 91.67%
+
+
+## One-Time Customer Rate %
+
+**Definition:**  
+Percentage of purchasing customers with exactly one completed order.
+
+**Calculation:**
+
+`One-Time Customers / Purchasing Customers`
+
+
+## Repeat Customer Revenue
+
+**Definition:**  
+Revenue generated by customers classified as Repeat Customers within the evaluated context.
+
+
+## Repeat Customer Revenue Share %
+
+**Definition:**  
+Percentage of total revenue generated by Repeat Customers.
+
+
+## One-Time Customer Revenue
+
+**Definition:**  
+Revenue generated by customers with exactly one completed order within the evaluated context.
+
+
+## One-Time Customer Revenue Share %
+
+**Definition:**  
+Percentage of total revenue generated by One-Time Customers.
+
+
+## Important Interpretation
+
+Repeat Customer Rate is a contextual purchasing-frequency measure.
+
+It is **not** labelled as customer retention rate because it does not measure whether customers were retained between defined acquisition cohorts or contractual periods.
+
+---
+
+# 8. Customer Acquisition KPIs
+
+## New Customers
+
+**Definition:**  
+Purchasing customers whose first observed completed purchase occurs within the selected reporting period.
+
+
+## Existing Customers
+
+**Definition:**  
+Purchasing customers whose first observed completed purchase occurred before the selected reporting period.
+
+**Calculation:**
+
+`Purchasing Customers - New Customers`
+
+
+## New Customer Rate %
+
+**Definition:**  
+Percentage of current purchasing customers classified as New Customers.
+
+**Calculation:**
+
+`New Customers / Purchasing Customers`
+
+
+## Existing Customer Rate %
+
+**Definition:**  
+Percentage of current purchasing customers classified as Existing Customers.
+
+
+## New Customer Revenue
+
+**Definition:**  
+Revenue generated by customers whose first observed completed purchase occurs within the selected reporting period.
+
+
+## Existing Customer Revenue
+
+**Definition:**  
+Revenue generated by customers acquired before the selected reporting period.
+
+**Calculation:**
+
+`Revenue - New Customer Revenue`
+
+
+## New Customer Revenue Share %
+
+**Definition:**  
+Percentage of current-period revenue generated by New Customers.
+
+
+## Existing Customer Revenue Share %
+
+**Definition:**  
+Percentage of current-period revenue generated by Existing Customers.
+
+
+## Average New Customer Value
+
+**Definition:**  
+Average current-period revenue generated per New Customer.
+
+
+## Average Existing Customer Value
+
+**Definition:**  
+Average current-period revenue generated per Existing Customer.
+
+
+## Important Interpretation
+
+The transaction history begins on 1 January 2022.
+
+Therefore, "New Customer" means:
+
+> First observed completed purchase within the available dataset.
+
+It does not prove that the customer had no relationship with the business before 2022.
+
+---
+
+# 9. Previous-Year KPIs
+
+## Revenue PY
+
+**Definition:**  
+Revenue generated during the equivalent previous-year reporting period.
+
+
+## Revenue YoY Change
+
+**Definition:**  
+Absolute change between current and previous-year revenue.
+
+**Calculation:**
+
+`Revenue - Revenue PY`
+
+
+## Revenue YoY %
+
+**Definition:**  
+Percentage change in revenue relative to the equivalent previous-year period.
+
+**Calculation:**
+
+`(Revenue - Revenue PY) / Revenue PY`
+
+
+The same comparison framework is used for:
+
+- Profit
+- Orders
+- Purchasing Customers
+- New Customers
+- Average Order Value
+- Average Customer Value
+
+---
+
+# 10. Customer Segmentation KPIs
+
+## Lifetime Revenue
+
+**Definition:**  
+Completed-sale revenue generated by an individual customer across the complete observed 2022–2025 history.
+
+
+## Lifetime Orders
+
+**Definition:**  
+Distinct completed orders placed by an individual customer across the complete observed history.
+
+
+## Lifetime Profit
+
+**Definition:**  
+Profit generated by an individual customer across the complete observed history.
+
+
+## Days Since Last Purchase
+
+**Definition:**  
+Number of days between the customer's last completed purchase and the fixed analytical endpoint:
+
+**31 December 2025**
+
+
+## Active Purchasing Months
+
+**Definition:**  
+Number of distinct calendar months in which the customer recorded completed purchasing activity.
+
+
+## Purchase Span Days
+
+**Definition:**  
+Elapsed number of days between the customer's first and last observed completed purchase.
+
+---
+
+# 11. Customer Value Segments
+
+Purchasing customers are divided into quartile-based Lifetime Revenue groups:
+
+- Premium Value
+- High Value
+- Medium Value
+- Low Value
+
+Validated populations:
+
+| Value Segment | Customers |
+|---|---:|
+| Premium Value | 4,443 |
+| High Value | 4,443 |
+| Medium Value | 4,443 |
+| Low Value | 4,444 |
+| **Total** | **17,773** |
+
+
+Approximate revenue contribution:
+
+| Value Segment | Revenue Share |
+|---|---:|
+| Premium Value | 63.7% |
+| High Value | 22.0% |
+| Medium Value | 10.7% |
+| Low Value | 3.6% |
+
+The segmentation is relative to this dataset and does not use externally defined monetary thresholds.
+
+---
+
+# 12. Customer Behaviour Segments
+
+The RFV framework produces the following customer classifications:
+
+## High-Value Loyal
+
+Strong combined Recency, Frequency and Value profile.
+
+
+## Valuable Regular
+
+Relatively high customer value without meeting the more specific High-Value Loyal or High-Value At Risk rules.
+
+
+## Recent Developing
+
+Strong recent purchasing activity with relatively lower purchase frequency.
+
+
+## Core Customer
+
+Purchasing customers not captured by the more specialised RFV classifications.
+
+
+## High-Value At Risk
+
+Historically strong Frequency and Value combined with weaker Recency.
+
+
+## Low Engagement
+
+Relatively weak Recency and Frequency.
+
+
+## No Completed Purchase
+
+Registered customer without completed purchasing activity.
+
+---
+
+# 13. Customer Composition KPIs
+
+## Continuing Customers
+
+**Definition:**  
+Customers with completed purchasing activity in both the current period and equivalent previous-year period.
+
+
+## Returning Existing Customers
+
+**Definition:**  
+Customers purchasing in the current period who:
+
+- did not purchase in the equivalent previous-year period; and
+- first purchased before the current reporting period.
+
+
+## Customer Composition Reconciliation
+
+For a selected reporting period:
+
+`New Customers + Returning Existing Customers + Continuing Customers = Purchasing Customers`
+
+---
+
+# 14. Customer Movement KPIs
+
+Customer movement applies to Continuing Customers.
+
+The comparison uses customer revenue movement relative to the equivalent previous-year period.
+
+A ±5% materiality threshold is used.
+
+
+## Growing Customers
+
+**Definition:**  
+Continuing Customers whose revenue increased by more than 5%.
+
+
+## Stable Customers
+
+**Definition:**  
+Continuing Customers whose revenue changed by no more than ±5%.
+
+
+## Declining Customers
+
+**Definition:**  
+Continuing Customers whose revenue decreased by more than 5%.
+
+
+## Growing Customer Rate %
+
+**Definition:**  
+Growing Customers as a percentage of Continuing Customers.
+
+
+## Stable Customer Rate %
+
+**Definition:**  
+Stable Customers as a percentage of Continuing Customers.
+
+
+## Declining Customer Rate %
+
+**Definition:**  
+Declining Customers as a percentage of Continuing Customers.
+
+
+## Movement Reconciliation
+
+`Growing Customers + Stable Customers + Declining Customers = Continuing Customers`
+
+---
+
+# 15. No Longer Purchasing Customers
+
+## Definition
+
+Customers who:
+
+- purchased in the equivalent previous-year period; and
+- recorded no completed purchase in the current reporting period.
+
+
+## No Longer Purchasing Rate %
+
+Represents No Longer Purchasing Customers relative to the relevant previous-year purchasing population.
+
+
+## Important Interpretation
+
+This KPI does not establish confirmed churn.
+
+It identifies absence of completed purchasing activity during the evaluated current period.
+
+---
+
+# 16. Validated 2025 Customer Movement
+
+| KPI | Customers |
+|---|---:|
+| Growing Customers | 4,829 |
+| Stable Customers | 358 |
+| Declining Customers | 4,761 |
+| Continuing Customers | 9,948 |
+| No Longer Purchasing Customers | 2,944 |
+| Previous-Year Purchasing Customers | 12,892 |
+
+Validated reconciliation:
+
+`4,829 + 358 + 4,761 = 9,948`
+
+and:
+
+`9,948 + 2,944 = 12,892`
+
+
+Approximate movement rates among Continuing Customers:
+
+- Growing: 48.54%
+- Stable: 3.60%
+- Declining: 47.86%
+
+Approximately 22.8% of the prior-year purchasing population recorded no completed purchase in 2025.
+
+---
+
+# 17. KPI Interpretation Principles
+
+The following principles apply throughout the report.
+
+### Completed Sales
+
+Primary commercial KPIs represent completed transactions only.
+
+### Customer
+
+Purchasing-customer metrics refer to customers with completed transactional activity unless explicitly labelled Registered Customers.
+
+### First Purchase
+
+Represents first observed completed purchase within the available dataset.
+
+### Lifetime
+
+Represents lifetime activity within the observed 2022–2025 dataset, not necessarily the customer's entire real-world relationship with the business.
+
+### Repeat
+
+Represents multiple completed orders within evaluated filter context, not formal retention.
+
+### At Risk
+
+Represents weaker recency within the RFV framework, not predicted churn.
+
+### Declining
+
+Represents a material reduction in revenue contribution, not the reason for the reduction.
+
+### No Longer Purchasing
+
+Represents no completed current-period purchase after previous-period activity, not confirmed customer loss.
+
+---
+
+# 18. Outcome
+
+The KPI framework provides consistent business definitions across the SQL analytical layer, Power BI semantic model and report pages.
+
+These definitions ensure that report metrics can be interpreted consistently while distinguishing clearly between:
+
+- transactional performance;
+- customer purchasing behaviour;
+- static customer segmentation;
+- dynamic customer movement.
